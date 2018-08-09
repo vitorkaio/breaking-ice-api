@@ -1,7 +1,7 @@
 import { Dropbox } from 'dropbox';
 import axios from 'axios';
 
-const pokeUrl = 'http://pokeapi.salestock.net/api/v2/pokemon/';
+const pokeUrl = 'https://pokeapi.co/api/v2/pokemon/';
 
 const token = "XWXkPnN5rtAAAAAAAAAAaCQ7vsYgSGMVKo9trUmviEJ9EafTQgwCoqWHJ_5TTVrS"
 const dropbox = new Dropbox({accessToken: token});
